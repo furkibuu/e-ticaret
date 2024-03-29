@@ -21,5 +21,5 @@ app.get('/', (req, res) => {
 
   
 app.listen(set.Port, () => {
-    console.log(`Server listening at http://localhost:${set.Port}`);
+    console.log(`Server listening at http://localhost:${set.Port}!`);
   });
