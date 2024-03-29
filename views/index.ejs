@@ -24,10 +24,10 @@
                             <a class="nav-link" href="/urunler">Ürünler</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hakkımızda</a>
+                            <a class="nav-link" href="/hakkimizda">Hakkımızda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">İletişim</a>
+                            <a class="nav-link" href="/iletisim">İletişim</a>
                         </li>
                     </ul>
                 </div>
@@ -48,31 +48,72 @@
             <h2 class="text-center mb-4">Öne Çıkan Ürünler</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://gachax.com/anime/wp-content/uploads/sites/29/2023/06/cute-anime-girl-pfp-profile-pictures-chibi.png" class="card-img-top" alt="Ürün Resmi">
+                    <div class="card" >
+                        <img src="https://frpnet.net/wp-content/uploads/2013/12/lost-saga-banner.jpg" class="card-img-top" alt="Ürün Resmi" width="150" height="150">
                         <div class="card-body">
-                            <h5 class="card-title">Anime Kızı 1</h5>
-                            <p class="card-text">Anime kızı gerçek.</p>
-                            <a href="#" class="btn btn-primary">Detaylar</a>
+                            <h5 class="card-title"  onclick="showProductDetail('https://frpnet.net/wp-content/uploads/2013/12/lost-saga-banner.jpg', 'Oyun Banner', 'Açıklama.')">Oyun Banneri</h5>
+                            <p class="card-text">Açıklama.</p>
+                            <button class="btn btn-primary" onclick="showProductDetail('https://frpnet.net/wp-content/uploads/2013/12/lost-saga-banner.jpg', 'Oyun Banner', 'Açıklama.')">Detaylar</button>
                         </div>
                     </div>
                 </div>
     
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://gachax.com/anime/wp-content/uploads/sites/29/2023/06/cute-anime-girl-pfp-profile-pictures-chibi.png" class="card-img-top" alt="Ürün Resmi">
+                    <div class="card" onclick="showProductDetail(`https://i.pinimg.com/originals/c9/7f/a4/c97fa48ceb642fa59add21980305f23a.jpg`, 'Kişiye Özel Banner', 'Açıklama.')">
+                        <img src="https://i.pinimg.com/originals/c9/7f/a4/c97fa48ceb642fa59add21980305f23a.jpg" class="card-img-top" alt="Ürün Resmi" width="150" height="150">
                         <div class="card-body">
-                            <h5 class="card-title">Anime Kızı 2</h5>
-                            <p class="card-text">AŞKO GERÇEK Mİ BU</p>
-                            <a href="#" class="btn btn-primary">Detaylar</a>
+                            <h5 class="card-title">Kişiye Özel Banner</h5>
+                            <p class="card-text">Açıklama.</p>
+                            <button class="btn btn-primary" onclick="showProductDetail(`https://i.pinimg.com/originals/c9/7f/a4/c97fa48ceb642fa59add21980305f23a.jpg`, 'Kişiye Özel Banner', 'Açıklama.')">Detaylar</button>
                         </div>
                     </div>
                 </div>
-    
                 <!-- Diğer ürün kartları buraya eklenebilir -->
             </div>
         </div>
     </section>
+
+
+    <section id="populer_part" class="text-center">
+        <div class="container">
+            <h2 class="text-center mb-4">Popüler Ürünler</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg" class="card-img-top" alt="Ürün Resmi" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Popüler Ürün 1</h5>
+                            <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                            <button class="btn btn-primary" onclick="showProductDetail('https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg', 'Popüler Ürün 1', 'Bu ürün hakkında kısa bir açıklama.')">Detaylar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg" class="card-img-top" alt="Ürün Resmi" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Popüler Ürün 2</h5>
+                            <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                            <button class="btn btn-primary" onclick="showProductDetail('https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg', 'Popüler Ürün 2', 'Bu ürün hakkında kısa bir açıklama.')">Detaylar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg" class="card-img-top" alt="Ürün Resmi" width="200" height="200">>
+                        <div class="card-body">
+                            <h5 class="card-title">Popüler Ürün 3</h5>
+                            <p class="card-text">Bu ürün hakkında kısa bir açıklama.</p>
+                            <button class="btn btn-primary" onclick="showProductDetail('https://img.freepik.com/premium-photo/anime-girl-web-banner-with-copy-space-generative-ai_653240-843.jpg', 'Popüler Ürün 3', 'Bu ürün hakkında kısa bir açıklama.')">Detaylar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer popüler ürünler buraya eklenebilir -->
+            </div>
+        </div>
+    </section>
+    
+   
     
     <footer class="bg-dark text-white py-4">
         <div class="container">
@@ -85,9 +126,9 @@
                     <h5>Bağlantılar</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Anasayfa</a></li>
-                        <li><a href="#">Ürünler</a></li>
-                        <li><a href="#">Hakkımızda</a></li>
-                        <li><a href="#">İletişim</a></li>
+                        <li><a href="/urunler">Ürünler</a></li>
+                        <li><a href="/hakkimizda">Hakkımızda</a></li>
+                        <li><a href="/iletisim">İletişim</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -112,7 +153,34 @@
         </div>
     </footer>
 
+
+    <div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productDetailModalLabel">Ürün Detayları</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="img-fluid" id="productDetailImage" alt="Ürün Resmi">
+                    <h5 id="productDetailTitle"></h5>
+                    <p id="productDetailDescription"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/style.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
